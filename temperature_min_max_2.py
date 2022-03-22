@@ -1,6 +1,4 @@
 # Write your code here :-)
-
-# Write your code here :-)
 from microbit import *
 
 streng = ""
@@ -39,7 +37,9 @@ min = get_nv_data('min.txt')
 for i in range(20):
     currentTemp = temperature()
 
-    streng = streng + str(currentTemp) + ","
+    streng = streng + str(currentTemp) + "\n"
+    teller = str(i)
+    display.scroll(teller)
 
     sleep(1000)
     # min = currentTemp

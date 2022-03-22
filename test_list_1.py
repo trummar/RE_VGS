@@ -4,7 +4,7 @@ a = ""
 
 for i in range(4):
 
-    b = str(i) + ","
+    b = str(i) + "\n"
 
     a = a + b
 
