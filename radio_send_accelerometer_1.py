@@ -2,7 +2,7 @@
 
 from microbit import *
 import radio
-radio.config(group=99)
+radio.config(group=73)
 radio.on()
 # t = 0
 # v = (t,0,0)

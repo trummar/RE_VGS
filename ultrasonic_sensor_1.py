@@ -22,6 +22,13 @@ def sonar():
     return distance
 
 while True:
-    display.scroll(sonar())   # Innefor denne løkka kan du bygge noe flott
+    vis = sonar()
+    display.scroll(vis)   # Innefor denne løkka kan du bygge noe flott
     sleep(1000)
+
+
+
+
+
+
 

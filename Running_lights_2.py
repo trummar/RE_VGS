@@ -16,8 +16,10 @@ while True:
     for i in range(12):
         fireleds[i] = (r, g, b)
         fireleds.show()
-        sleep(100)
+        # sleep(100)
+    sleep(200)
     for i in range(12):
         fireleds[i] = (0, 0, 0)
         fireleds.show()
-        sleep(100)
+        # sleep(100)
+    sleep(200)
